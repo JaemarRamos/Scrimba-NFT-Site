@@ -44,3 +44,12 @@ section h2 {
 .sneaker-img {
     width: 100%;
 }
+
+section a {
+    color: #ef5839;
+    text-decoration: underline dotted;
+}
+
+section a:hover , section a:active {
+    color: #d4b44c;
+}
