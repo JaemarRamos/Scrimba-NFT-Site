@@ -61,6 +61,10 @@ section h2 {
     margin-top: 0;
 }
 
+section p {
+    line-height: 23px;
+}
+
 .sneaker-img {
     width: 100%;
 }
@@ -72,6 +76,37 @@ section a {
 
 section a:hover , section a:active {
     color: #d4b44c;
+}
+
+/* Link Styles */
+
+.link-layout{
+    margin: 10px 0;
+    display: inline-block;
+    padding: 10px 19px;
+    border-radius: 4.6px;
+    font-weight: 500;
+    text-decoration: none;
+}
+
+.link-layout:hover, .link-layout:active {
+    background-color: #f3e885;
+    color: #2b283a;
+}
+
+.section-one-link-one {
+    background-color: #5f29a3;
+    color: whitesmoke;
+}
+
+.section-one-link-two {
+    background-color: #f0e0ff;
+    color: #5f29a3;
+}
+
+.section-two-link-one {
+    background-color: whitesmoke;
+    color: #5f29a3;
 }
 
 /* Footer Styles */
